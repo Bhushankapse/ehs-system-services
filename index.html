@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>EHS Website</title>
+    <link rel="stylesheet" href="styles1.css"> 
+
+    <style>
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .fadeIn {
+            animation: fadeIn 1s ease-in-out;
+        }
+    </style>
+
+</head>
+
+<body>
+    
+    <header>
+        <h1>Welcome to EHS</h1>
+        <!-- Login Button -->
+        <a href="signin.html">
+            <button id="loginBtn">Login/Sigup</button>
+        </a>
+    </header>
+
+    <main>
+        <!-- About Section -->
+        <section class="fadeIn">
+            <h2 style="text-align: center;">About EHS</h2>
+            <div class="container">
+                <div class="content">
+                     <p>"EHS (Environmental Health and Safety) is the practice of ensuring human health and environmental 
+                         protection by managing risks and promoting safety measures. It encompasses various areas such as occupational safety,
+                         industrial hygiene, environmental management, and emergency preparedness. EHS professionals work to prevent accidents, 
+                        injuries, and environmental damage while ensuring compliance with relevant regulations."</p>
+                </div>
+                <div class="image">
+                    <img src="EHS.jpg" alt="EHS Image">
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="fadeIn">
+            <h2 style="text-align: center;">Our Services</h2>
+                <div class="service">
+
+                    <div style="text-align: center;">
+                        <img src="ehss.jpg" alt="Services Image">
+                    </div>
+                <h3 style="text-align: center;">Environmental Compliance</h3>
+                    <div class="container">
+                        <div class="image">
+                             <img src="enviro_com.png" alt="EHS Image" height="60%" width="70%">
+                        </div>
+                        <p class="content1"> Environmental Compliance in EHS! Here, we prioritize the protection of our environment and the well-being of all stakeholders. 
+                            Our platform serves as a comprehensive resource for navigating environmental regulations, ensuring compliance, and promoting sustainable practices. 
+                            Explore our insights, tools, and services tailored to help organizations mitigate risks, minimize environmental impacts, and foster a culture of responsibility.
+                            Together, let's build a safer, healthier, and more sustainable future."
+                        </p>
+                    </div>
+                 </div>
+            <div class="service">
+                <h3 style="text-align: center;">Health and Safety Training</h3>
+                    <div class="container">
+                        <div class="content">
+                            <p>Our training programs equip employees with the knowledge and skills necessary to maintain a safe and healthy work environment.
+                              Elevate your workplace safety with our EHS training. Our concise, effective modules ensure your team is equipped with essential
+                              knowledge and skills to uphold health and safety standards. From hazard identification to emergency response protocols, empower
+                              your workforce to create a secure environment. Explore our EHS training now.
+                            </p>
+                        </div>
+                        <div class="image">
+                            <img src="health.jpg" alt="Health img">
+                        </div>
+                    </div>
+            </div>
+
+            <div class="service">
+                <h3 style="text-align: center;">Risk Assessment</h3>
+                    <div class="container">
+                        <div class="image">
+                            <img src="risk.jpg" alt="Risk Assessment">
+                        </div>
+                        <div class="content">
+                              <p>We conduct thorough risk assessments to identify potential hazards and develop strategies to mitigate risks effectively.
+                                 Risk assessment is a crucial process that involves identifying, analyzing, and prioritizing potential risks to an organization's objectives.
+                                </p>
+                        </div>
+                    </div>
+            </div>
+            <div class="service">
+                <h3 style="text-align: center;">Emergency Preparedness</h3>
+                    <div class="container">
+                         <div class="content">
+                            <p>Our team assists organizations in developing and implementing emergency preparedness plans to respond to unforeseen incidents promptly.
+                                 Emergency Preparedness is paramount for ensuring the safety and well-being of individuals and the continuity of operations in the face of unforeseen events.
+                                 Our EHS system provides robust tools and resources to support organizations in developing and implementing effective emergency preparedness plans. 
+                            </p>
+                        </div>
+                        <div class="image">
+                             <img src="emr.jpg" alt="Emergency Preparedness" style="width: 300px; height: auto;">
+                        </div>
+                    </div>
+        </section>
+    </main>
+    <br>
+    <br>
+    <footer>
+        <p>&copy; 2024 EHS Website. All rights reserved.</p>
+    </footer>
+
+   
+    <script>
+        document.getElementById("loginBtn").addEventListener("click", function() {
+           
+        });
+    </script>
+</body>
+</html>

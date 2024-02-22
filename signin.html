@@ -1,0 +1,53 @@
+<html>
+<head>
+    <title>Login And Regisstration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hey">
+        <div class="form">
+            <div class="button">
+               <div id="bttn"></div>
+                  <button type="button" class="btn" onclick="login()">Log In</button>
+                  <button type="button" class="btn" onclick="sign_up()">Sign Up</button>
+                </div>
+            <div class="icon">
+                <img src="gp.png">
+                <img src="fb.png">
+                <img src="insta.jpg">
+            </div>
+            <form id="login" class="input">
+                <input type="text" class="input_in" placeholder="User ID" required><br>
+                <input type="text" class="input_in" placeholder="Enter Password" required><br>
+                <input type="checkbox" class="check_box"><span>Remember Password</span>
+                <button type="Submit" class="submit_btn">Log in</button> 
+            </form>
+
+            <form id="sign_up" class="input">
+                <input type="text" class="input_in" placeholder="User ID" required><br>
+                <input type="email" class="input_in" placeholder="Email ID" required><br>               
+                <input type="text" class="input_in" placeholder="Enter Password" required><br>
+                <input type="checkbox" class="check_box"><span>I Agree To The Terms & Conditions</span>
+                <button type="Submit" class="submit_btn">Sign Up</button> 
+            </form>
+        </div>    
+    </div>
+</div>
+    <script>
+        var x = document.getElementById("login");
+        var y = document.getElementById("sign_up");
+        var z = document.getElementById("bttn");
+        
+        function sign_up(){
+            x.style.left="-400px";
+            y.style.left="50px";
+            z.style.left="110px";
+        }
+        function login(){
+            x.style.left="50px";
+            y.style.left="450px";
+            z.style.left="0";
+        }
+    </script>
+</body>
+</html>
